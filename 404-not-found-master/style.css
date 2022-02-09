@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.top-text {
+  /* background-color: black; */
+  width: 150px;
+  height: 25px;
+  position: absolute;
+  left: 77px;
+  top: 40px;
+  font-family: Space Mono;
+  font-weight: bold;
+  line-height: 25px;
+  font-size: 20px;
+  letter-spacing: -0.08em;
+}
+
+.middle-container {
+  /* background-color: red; */
+  height: 500px;
+  display: inline-block;
+  position: absolute;
+}
+
+.scarecrow {
+  /* background-color: green; */
+  Width: 539.22px;
+  Height: 447.43px;
+  position: absolute;
+  left: 5.35%;
+  right: 57.21%;
+  top: 24.54%;
+  bottom: 34.03%;
+  margin-left: 90px;
+  margin-right: 118px;
+}
+
+.text-container {
+  /* background-color: yellow; */
+  margin-left: 118px;
+  position: absolute;
+}
+
+p {
+  margin: 0;
+  color: #333333;
+}
+
+.text1 {
+  /* background-color: brown; */
+  Width: 586px;
+  Height: 190px;
+  position: absolute;
+  left: 735px;
+  top: 150px;
+  line-height: 1.5;
+  font-family: Space Mono;
+  margin: auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  text-align: left;
+  margin-bottom: 36px;
+  letter-spacing: -0.035em;
+  /* line-height: 95px; */
+}
+
+.text2 {
+  color: #4F4F4F;
+  /* background-color: #2B254E; */
+  Width: 381px;
+  Height: 108px;
+  position: absolute;
+  left: 736px;
+  top: 391px;
+  font-family: Space Mono;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+}
+
+.bit {
+  background-color: #333333;
+  color: white;
+  position: absolute;
+  Width: 130px;
+  /* Height:68px; */
+  left: 850px;
+  align-items: center;
+  padding: 24px 43px;
+  /* left: 740px; */
+  top: 550px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+}
+
+.bit-text {
+  color: white;
+}
+
+.bottom-container {
+  position: absolute;
+  width: 300px;
+  height: 17px;
+  left: 580px;
+  top: 1039px;
+  align-items: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #BDBDBD;
+}
+
+@media screen and (max-width: 425px) {
+  .top-text {
+    position: absolute;
+    font-size: 19px;
+    width: 133px;
+    height: 25px;
+    left: 24px;
+    top: 20px;
+  }
+
+  .scarecrow {
+    Width: 286.83px;
+    Height: 238px;
+    margin: auto;
+    position: absolute;
+    Top: 100px;
+    Left: 44px;
+  }
+
+  .text1 {
+    position: absolute;
+    width: 250px;
+    height: 142px;
+    left: -40px;
+    top: 407px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 328px;
+    height: 81px;
+    left: -40px;
+    top: 579px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+  }
+
+  .bit {
+    position: absolute;
+    Width: 130px;
+    height: 25px;
+    left: 24px;
+    margin-left: 50px;
+    top: 726px;
+  }
+  .bottom-container{
+    position: absolute;
+width: 300px;
+height: 17px;
+left: 46px;
+top: 908px;
+  }
+
+}
